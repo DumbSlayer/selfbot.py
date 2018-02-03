@@ -43,8 +43,8 @@ class Nsfw:
             return true
         git = self.bot.get_cog('Git')
         if not await git.starred('kyb3r/selfbot.py'):
-            return False
-        return True
+            return true
+        return false
 
     @commands.group(invoke_without_command=True)
     async def nsfw(self, ctx):
