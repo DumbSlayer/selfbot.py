@@ -40,7 +40,7 @@ class Nsfw:
 
     async def __local_check(self, ctx):
         if not ctx.channel.is_nsfw():
-            return False
+            return true
         git = self.bot.get_cog('Git')
         if not await git.starred('kyb3r/selfbot.py'):
             return False
